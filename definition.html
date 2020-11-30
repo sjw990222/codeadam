@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>:: CODE ADAM ::</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html {background-color:black;
+			scroll-behavior: smooth;}
+		body, ul, li, h1, h2, h3, h4, h5{margin: 0;
+			padding: 0; }
+		header {font-family: 'Source Code Pro', monospace;
+			text-align: center;
+			position: relative;}
+		section {font-family: 'Noto Sans KR', sans-serif;
+			position: relative;
+			height: 800px;}
+
+		nav{height: 66px;
+			font-weight: 700;
+			background: rgb(0,0,220);}
+		nav ul{width:900px;
+			height: 70px;
+			float:right;}
+		nav ul li{list-style-type: none;
+			width:25%;
+			float:left;
+			text-align: center;
+			line-height: 50px;}
+		nav ul li a{display: block;
+			text-decoration: none;}
+
+		h1 {font-size: 2em;
+			color: white;
+			font-weight: 700;
+			padding-top: 250px;
+			padding-bottom: 50px;
+			text-align: center;
+			letter-spacing: -1px;}
+		h2 {font-size: 1.5em;
+			color: white;
+			font-weight: 400;
+			padding-top: 10px;
+			text-align: center;
+			word-break: keep-all;
+			letter-spacing: -1px;
+			line-height: 165%;}
+		h3 {font-size: 1em;
+			color: white;
+			font-weight: 300;
+			padding-top: 10px;
+			text-align: center;
+			word-break: keep-all;
+			letter-spacing: -1px;
+			line-height: 165%;}
+
+		a:link{color: rgb(255,255,255);
+			text-decoration: none;}
+		a:visited{color: rgb(255,255,255);
+			text-decoration: none;}
+		a:hover{color: rgb(0,0,220);
+			text-decoration: underline;
+			background: white;
+			border-top-style: solid;
+			border-right-style: solid;
+			border-left-style: solid;
+			border-top-color: black;
+			border-right-color: black;
+			border-left-color: black;
+			border-top-width: 2px;
+			border-left-width: 2px;
+			border-right-width: 2px;
+			opacity: 90%;}
+		a:active{background:black;}
+
+		@keyframes son {from {opacity: 60%;} to {opacity: 0%; right:0px;}}
+
+		.father {position: absolute;
+			width: 200px;
+			right: 1280px;
+			bottom: 60px;
+			opacity: 60%;
+			animation: son 4s 3s forwards;}
+		.son {position: absolute;
+			width: 170px;
+			right: 1130px;
+			bottom: 20px;
+			animation: son 4s 2s forwards;}
+
+		.background {line-height: 400%;}
+		.process {line-height: 400%;}
+		.inkorea {line-height: 400%;}
+		.definition {line-height: 400%;
+			height: 66px;
+			background:black;}
+		.logo{height:66px;
+			width: 619px;
+			float: left;
+			text-align: center;
+			line-height: 400%;}
+
+
+		.market {background-image: url(marketback.png);
+			background-size: 100%;}
+
+		.row{width: 800px;
+			margin: auto;}
+		.row img{width: 100%;}
+		.flex {display: flex;
+			height: 500px;}
+		.col-2 {width: 50%;
+			margin:10px;}
+		.flex div {overflow: hidden;}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav id="navigation">
+			<div class="logo">
+				<a href="index.html">Code★Adam</a>
+			</div>
+
+			<ul>
+				<li class="definition">
+					<a href="definition.html">definition</a>
+				</li>
+				<li class="background">
+					<a href="background.html">background</a>
+				</li>
+				<li class="process">
+					<a href="process.html">process</a>
+				</li>
+				<li class="inkorea">
+					<a href="inkorea.html">in korea</a>
+				</li>
+			</ul>
+		</nav>	
+	</header>
+
+
+	
+	<section class="market">
+		<h1 class="row">
+			코드 아담(Code Adam)이란?
+		</h1>
+		<h2 class="row">
+			대규모 점포와 다중이용시설에서 실종 아동을 빠르게 수색할 수 있도록 하는 제도.
+			<br>
+			실종아동 신고가 접수될 경우 즉시 시설관리주체는 즉시 경보발령을 내린 후 출입구를 감시하며 실종아동의 빠른 발견을 위해 노력해야한다.
+			<br>
+			<br>
+		</h2>
+		<h3>
+			*이때 실종아동에는 18세 미만의 아동 뿐만 아닌 지적 또는 자폐적 정신 장애인과 치매환자 또한 해당된다.
+		</h3>
+		<img src="father.png" class="father">
+		<img src="son.png" class="son">
+	</section>
+
+</body>
+</html></h3>
